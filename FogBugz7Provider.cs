@@ -70,14 +70,14 @@ namespace Inedo.BuildMasterExtensions.FogBugz
         /// </summary>
         public bool CanAppendIssueDescriptions
         {
-            get { return false; }
+            get { return true; }
         }
         /// <summary>
         /// Gets a value indicating whether an issue's status can be changed.
         /// </summary>
         public bool CanChangeIssueStatuses
         {
-            get { return false; }
+            get { return true; }
         }
         /// <summary>
         /// Gets a value indicating whether an issue can be closed.
